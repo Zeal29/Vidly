@@ -5,7 +5,6 @@ const bcrypt = require( "bcrypt" )
 const express = require( 'express' );
 const router = express.Router();
 const Joi = require( 'joi' );
-const jsonwebtoken = require( "jsonwebtoken" );
 
 
 router.post( '/', async ( req, res ) =>
